@@ -1,0 +1,5 @@
+target follow-exec -on
+b spawnchild.go:11 if i == 2
+on 1 p i
+c
+bp
